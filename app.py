@@ -1,5 +1,5 @@
-hours, minutes = map(int, input("시작 시간을 설정하세요 (시 분) : ").split())
-add_minutes = int(input("추가할 시간을 입력해주세요 (분) : "))
+hours,  minutes = map(int, input("시작 시간을 설정하세요 (시 분) : ").split())
+add_minutes = int(input("추가할 시간을 입력해주세요 (분): "))
 minutes += add_minutes
 
 while minutes >= 60 :
